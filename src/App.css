@@ -11,9 +11,60 @@ body {
 
 .app {
   max-width: 600px;
-  margin: 0 auto;
-  background-color: rgba(226, 226, 253, 0.856);
+  margin: 0 auto 300px;
+  background-color: rgba(255, 255, 255, 0.918);
   padding: 20px 30px;
   border-radius: 10px;
   border: 2px solid rgba(75, 114, 223, 0.212);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0d21d4e0;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .4s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #D9534f;
+}
+
+.todo-list {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #07229c75;
+  border-radius: 3px;
+  width: 100%;
 }
